@@ -19,11 +19,18 @@ body {
   border-radius: 12px;
   background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
   box-shadow: 0 0 20px #8b0000;
+  max-width: 400px;
 }
 
 h1 {
   margin-bottom: 20px;
   font-size: 2.5em;
+  color: #d32f2f;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
   color: #d32f2f;
 }
 
@@ -52,4 +59,23 @@ button:hover {
   font-size: 2em;
   margin-top: 20px;
   color: #00ff99;
+}
+
+.history {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.history li {
+  background-color: #1a1a1a;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-left: 3px solid #d32f2f;
 }
